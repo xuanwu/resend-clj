@@ -15,7 +15,7 @@ contacts and broadcasts.
 As a git dependency in `deps.edn` ([repository](https://github.com/xuanwu/resend-clj)):
 
 ```clojure
-{:deps {io.github.xuanwu/resend-clj {:git/sha "<latest commit sha>"}}}
+{:deps {io.github.xuanwu/resend-clj {:git/tag "v0.1.0" :git/sha "b363fbe"}}}
 ```
 
 Or as a local dependency:
