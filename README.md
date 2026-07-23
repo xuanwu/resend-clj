@@ -1,4 +1,4 @@
-# resend-clojure
+# resend-clj
 
 A Clojure client for the [Resend](https://resend.com) email API. Covers emails
 (including batch, scheduling and attachments), domains, API keys, audiences,
@@ -12,10 +12,16 @@ contacts and broadcasts.
 
 ## Installation
 
-`deps.edn` (as a local or git dep, adjust to where you host it):
+As a git dependency in `deps.edn` ([repository](https://github.com/xuanwu/resend-clj)):
 
 ```clojure
-{:deps {resend/resend-clojure {:local/root "../resend-integration"}}}
+{:deps {io.github.xuanwu/resend-clj {:git/sha "<latest commit sha>"}}}
+```
+
+Or as a local dependency:
+
+```clojure
+{:deps {io.github.xuanwu/resend-clj {:local/root "../resend-clj"}}}
 ```
 
 ## Quick start

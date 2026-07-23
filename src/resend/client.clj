@@ -25,7 +25,7 @@
 (def default-base-url "https://api.resend.com")
 
 (def ^:private version "0.1.0")
-(def ^:private user-agent (str "resend-clojure/" version))
+(def ^:private user-agent (str "resend-clj/" version))
 
 ;; ---------------------------------------------------------------------------
 ;; Key conversion
